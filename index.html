@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="master/hsh.css">
+    <style>
+#togg{
+    position: absolute;
+    top: 48%;
+    right: 620px;
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    background: url(img/pngwing.com\ \(1\).png);
+    background-size: cover;
+}
+
+#togg.hid{
+    background:url(img/pngwing.com.png);
+    background-size: cover;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <input type="password" name="" placeholder="Password" id="pass">
+        </div>
+        <div id="togg" onclick="showhide()"></div>
+    </main>
+    <script src="js/hsh.js"></script>
+   </body>
+</html>
